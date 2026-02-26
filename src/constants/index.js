@@ -1,7 +1,7 @@
 export const myProjects = [
 
   {
-    id: 1,
+    id: 3,
     title: "Rescue Radar - Disaster Management",
     description:
       "A disaster management tool that enables teams to coordinate rescue operations and communicate during emergencies.",
@@ -22,27 +22,30 @@ export const myProjects = [
     ],
   },
   {
-    id: 2,
-    title: "AI Based Project for BIKESETU (Frontend)",
+    id: 1,
+    title: "Mirika Consulting Group - Corporate Website",
     description:
-      "Front-end application for an AI-powered platform focused on smart bike-related services.",
+      "Corporate website redesign and development for Mirika Consulting Group, delivering a modern, high-performance platform that reflects the firm’s brand and enhances user experience.",
     subDescription: [
-      "Developed user-friendly and visually engaging frontend with React JS.",
-      "Implemented responsive designs for cross-device usability.",
-      "Collaborated with backend team for seamless data integration and testing.",
-      "Applied modern design patterns and UI/UX standards for optimal interaction."
+      "Redesigned and developed the company’s corporate website, transforming an outdated interface into a modern, responsive, and visually cohesive platform that strengthens brand credibility and delivers a seamless user experience across all devices.",
+
+"Built the frontend using React.js, TypeScript, and Tailwind CSS with a scalable, component-based architecture. Enhanced functionality through dynamic sections, clean API integrations, and performance optimizations that significantly improved load speed and overall reliability.",
+
+"Managed the complete deployment lifecycle, from production build configuration to asset optimization, ensuring a smooth launch and a fast, stable live environment."
+
     ],
-    href: "https://github.com/KushagraGaur/Bike-Setu-FrontEnd",
+    href: "https://mirikaconsulting.in/",
     logo: "",
     image: "/assets/projects/project-3.png",
     tags: [
       { id: 1, name: "React", path: "/assets/logos/react.svg" },
       { id: 2, name: "JavaScript", path: "/assets/logos/javascript.svg" },
-      { id: 3, name: "Figma", path: "/assets/logos/figma.svg" }
+      { id: 3, name: "Figma", path: "/assets/logos/figma.svg" },
+      { id: 4, name: "Typescript", path: "/assets/logos/typescript.svg" }
     ],
   },
   {
-    id: 3,
+    id: 2,
     title: "TechLearn Solutions - Company Website",
     description:
       "Corporate website built during internship, showcasing TechLearn Solutions’ services and ethos.",
@@ -84,6 +87,14 @@ export const mySocials = [
 ];
 
 export const experiences = [
+  {
+    title: "Full Stack Development Intern",
+    job: "Mirika Consulting Group",
+    date: "January 2026 - Present",
+    contents: [
+      "Redesigned and developed the company’s website using React.js, TypeScript, and Tailwind CSS, delivering a modern, fully responsive UI that significantly improved visual consistency and user experience. Implemented dynamic, scalable frontend architecture with reusable components and enhanced functionality to support future feature expansion. Integrated APIs, optimized performance, and managed the end-to-end deployment process, ensuring fast load times, reliability, and a smooth production release."
+    ]
+  },
   {
     title: "Software Development Intern (Frontend)",
     job: "Tech Learn Solutions (EdTech)",
