@@ -81,7 +81,7 @@ export const mySocials = [
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/kushagra__gaur/",
+    href: "https://www.instagram.com/kush_gaur_/",
     icon: "/assets/socials/instagram.svg",
   },
 ];
